@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         //creates a dice with 6 sides and rolls it
         val dice = Dice(6)
         val diceRoll = dice.roll()
-        val diceImage: ImageView = findViewById(R.id.imageView2)
+        val diceImage: ImageView = findViewById(R.id.imageView)
         // Updates screen with the image for dice roll that display #2
 
 
