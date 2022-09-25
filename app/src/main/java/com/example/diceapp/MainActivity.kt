@@ -16,7 +16,7 @@ class MainActivity : AppCompatActivity() {
         rollButton.setOnClickListener { rollDice();rollDice0()}
 
         // Do a dice roll on start-up
-        rollDice()
+        rollDice(); rollDice0()
     }
 
     private fun rollDice() {
@@ -79,16 +79,8 @@ class MainActivity : AppCompatActivity() {
             return (1..numSides).random()
         }
     }
-    class Dice0(private  val numSides: Int){
-        fun roll(): Int {
-            return (1..numSides).random()
-        }
-    }
-
-
-
-
 }
+
 
 
 
